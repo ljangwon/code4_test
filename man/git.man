@@ -1,0 +1,28 @@
+git status
+
+git init
+
+ls -d .git
+
+git status
+
+echo .env > .gitignore
+
+cat .gitignore
+
+git status
+
+git add -A
+
+git status
+
+git commit -m "init commit"
+
+git status
+
+git remote add origin https://github.com/<본인 계정>/our-project
+
+git push -u origin master
+
+
+

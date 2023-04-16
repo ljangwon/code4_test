@@ -1,7 +1,9 @@
 <?php
 session_start();
-print_r($_SERVER['DOCUMENT_ROOT']);
+
 require $_SERVER['DOCUMENT_ROOT'] . '/../vendor/autoload.php';
+
+print_r($_SERVER['DOCUMENT_ROOT'] . '/../vendor/autoload.php');
 
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
